@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{ 
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 5vh;
+}
+
+.yourcountries{
+    margin: 2%;
+}
+
+#countries{
+    margin: 1.5vh 0px;
+    width: 20vw;
+}
+
+.dark{
+    margin: 1vh 2px;
+    float: right;
+}
+
+.clock{
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    margin: auto;
+    background: url(Clock.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour,#min,#sec{
+    position: absolute;
+    background-color: black;
+    border-radius: 7px;
+    transform-origin: bottom;
+}
+
+#hour{
+    height: 22%;
+    width: 2%;
+    top: 28.5%;
+    left: 48.8%;
+}
+#min{
+    height: 29%;
+    width: 1.5%;
+    top: 21.5%;
+    left: 49.1%;
+}
+#sec{
+    height: 43%;
+    width: 1%;
+    top: 7%;
+    left: 49.4%;    
+}
+.time{
+    padding: 0px 5px;
+    font-family: 'Nunito', sans-serif; 
+}
+.h1yourtime, .darkmode{
+    display: inline-block;
+}
+.darkmode{
+    position: relative;
+    top: 0;
+    float: right;
+    margin: 0px 3px;
+}
+.darkbutton{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 2.5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 10px;
+}
+.darkbutton:hover{
+    transform: translateY(-2px);
+    transition: all 0.3s ease 0s;
+}
+.darkmodehref{
+    color: white;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+.ist{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.istpara{
+    font-family: 'Nunito', sans-serif;
+}
+footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 13vh;
+}
+.creator{
+    float: right;
+}
+.yourtime,.creator{
+    margin: 1px 5px;
+    font-size: small;
+    font-family: 'Nunito', sans-serif;
+}
+.follow{
+    /* display: flex;
+    justify-content: center; */
+    width: 100vw;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.follow .divfollow{
+    margin: 1px 5px;
+    font-size: small;
+}
+.instagram,.twitter{
+    font-size: medium;
+    text-decoration: none;
+    padding: 1.5px;
+}
+.instagram:hover{
+    text-decoration: none;
+    color: #0066ff;
+    /* background-color: white; */
+    border-radius: 2px;
+    font-family: 'Nunito', sans-serif;;
+}
+.twitter:hover{
+    text-decoration: none;
+    color: #0066ff;
+    /* background-color: white; */
+    border-radius: 2px;
+    font-family: 'Nunito', sans-serif;;
+}

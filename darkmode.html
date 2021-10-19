@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock - Your Time</title>
+    <link rel="icon" href="icons8-square-clock-50 (2).png">
+    <script src="script.js"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #040312;
+        }
+
+        header {
+            background-color: #040312;
+            color: white;
+            width: 100vw;
+            height: 5vh;
+        }
+
+        .yourcountries {
+            margin: 2%;
+        }
+
+        #countries {
+            margin: 1.5vh 0px;
+            width: 20vw;
+        }
+
+        .dark {
+            margin: 1vh 2px;
+            float: right;
+        }
+
+        .clock {
+            position: relative;
+            height: 30vw;
+            width: 30vw;
+            margin: auto;
+            background: url(Clock.png) no-repeat;
+            background-size: 100%;
+        }
+
+        #hour,
+        #min,
+        #sec {
+            position: absolute;
+            background-color: black;
+            border-radius: 7px;
+            transform-origin: bottom;
+        }
+
+        #hour {
+            height: 22%;
+            width: 2%;
+            top: 28.5%;
+            left: 48.8%;
+        }
+
+        #min {
+            height: 29%;
+            width: 1.5%;
+            top: 21.5%;
+            left: 49.1%;
+        }
+
+        #sec {
+            height: 43%;
+            width: 1%;
+            top: 7%;
+            left: 49.4%;
+        }
+
+        .time {
+            padding: 0px 5px;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .h1yourtime,
+        .lightmode {
+            display: inline-block;
+            color: white;
+        }
+
+        .lightmode {
+            position: relative;
+            top: 0;
+            float: right;
+            margin: 0px 3px;
+        }
+
+        .lightbutton {
+            color: white;
+            background-color: #040312;
+            padding: 5px;
+            border-radius: 2.5px;
+            float: right;
+            box-shadow: rgba(184, 181, 181, 0.35) 5px 5px 10px;
+        }
+
+        .lightbutton:hover {
+            transform: translateY(-2px);
+            transition: all 0.3s ease 0s;
+        }
+
+        .lightmodehref {
+            color: white;
+            text-decoration: none;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .lightmodehref:hover{
+            color: #0066ff;
+        }
+
+        .ist {
+            color: white;
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .istpara {
+            font-family: 'Nunito', sans-serif;
+        }
+
+        footer {
+            background-color: 040312;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100vw;
+            height: 13vh;
+        }
+
+        .creator {
+            float: right;
+        }
+
+        .yourtime,
+        .creator {
+            margin: 1px 5px;
+            font-size: small;
+            font-family: 'Nunito', sans-serif;
+            background-color: #040312;
+        }
+
+        .follow {
+            width: 100vw;
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .follow .divfollow {
+            margin: 1px 5px;
+            font-size: small;
+        }
+
+        .instagram,
+        .twitter {
+            font-size: medium;
+            text-decoration: none;
+            padding: 1.5px;
+        }
+
+        .instagram:hover {
+            text-decoration: none;
+            color: #0066ff;
+            /* background-color: white; */
+            border-radius: 2px;
+            font-family: 'Nunito', sans-serif;
+            ;
+        }
+
+        .twitter:hover {
+            text-decoration: none;
+            color: #0066ff;
+            /* background-color: white; */
+            border-radius: 2px;
+            font-family: 'Nunito', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+
+        <!-- <header>
+            <span class="yourcountries">Your Country:</span>
+            <select name="Countries" id="countries">
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="China">China</option>
+                <option value="United States Of America">United States Of America</option>
+            </select>
+        </header> -->
+        <br>
+
+        <div class="time">
+            <h1>
+                <h1 class="h1yourtime">Your Time:</h1>
+            </h1>
+
+            <span class="Lightmode">
+                <button class="lightbutton"><a href="index.html" class="lightmodehref">Light Mode</a></button>
+            </span>
+        </div>
+
+        <div class="clock">
+            <div id="hour"></div>
+            <div id="min"></div>
+            <div id="sec"></div>
+        </div>
+
+        <br><br><br>
+        <div class="ist">
+            <h1>Zone: +5:30 IST</h1>
+            <b>
+                <p class="istpara">Indian Time</p>
+            </b>
+        </div>
+        <br><br>
+
+        <footer>
+            <span class="yourtime">
+                &copy; YourTime
+            </span>
+            <span class="creator">
+                Creator: Sai Pritam Panda
+            </span>
+            <div class="follow">
+                <div class="divfollow">
+                    Connect With Us On:
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/saipritampanda" target="1" class="instagram">Instagram</a>
+                </div>
+                <div>
+                    <a href="https://www.twitter.com/SaiPritamPanda1" target=:"2" class="twitter">Twitter</a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</body>
+
+</html>

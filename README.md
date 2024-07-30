@@ -8,10 +8,6 @@ This project is a simple and visually appealing analogue clock built using HTML,
 - **Smooth Transitions**: Provides smooth movement of the clock hands to enhance the visual experience.
 - **Responsive Design**: Ensures the clock looks good on various devices and screen sizes.
 
-## Demo
-
-You can see a live demo of the Analogue Clock [here](#).
-
 ## Table of Contents
 
 - [Installation](#installation)

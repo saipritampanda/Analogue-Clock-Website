@@ -1,7 +1,3 @@
-Here's a detailed README file for the "Analogue-Clock-Website" repository:
-
----
-
 # Analogue Clock 12H Website (Web Clock)
 
 This project is a simple and visually appealing analogue clock built using HTML, CSS, and JavaScript. It accurately represents the current time with smooth transitions and can be a great addition to any web project or personal website.
